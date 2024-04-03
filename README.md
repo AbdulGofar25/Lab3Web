@@ -63,7 +63,7 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000,
 
 Buat file baru dengan nama koneksi.php </br>
 
-<?php
+.<?php
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -74,7 +74,7 @@ if ($conn == false)
 echo "Koneksi ke server gagal.";
 die();
 } #else echo "Koneksi berhasil";
-?> </br>
+?> 
 
 Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil,
 uncomment pada perintah echo “koneksi berhasil”; </br>
