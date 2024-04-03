@@ -63,18 +63,18 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000,
 
 Buat file baru dengan nama koneksi.php </br>
 
-.<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "latihan1";
-$conn = mysqli_connect($host, $user, $pass, $db);
-if ($conn == false)
-{
-echo "Koneksi ke server gagal.";
-die();
-} #else echo "Koneksi berhasil";
-?> 
+    <?php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db = "latihan1";
+    $conn = mysqli_connect($host, $user, $pass, $db);
+    if ($conn == false)
+    {
+    echo "Koneksi ke server gagal.";
+    die();
+    } #else echo "Koneksi berhasil";
+    ?> 
 
 Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil,
 uncomment pada perintah echo “koneksi berhasil”; </br>
