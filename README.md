@@ -17,5 +17,32 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP. </br>
 
 ## Menjalankan MySQL Server
+
 Untuk menjalankan MySQL Server dari menu XAMPP Contol. </br>
 ![img1](gambar/ss1.png)
+
+## Mengakses MySQL Client menggunakan PHP MyAdmin
+
+Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: </br>
+http://localhost/phpmyadmin/ </br>
+
+## Membuat Database: Studi Kasus Data Barang
+
+![img1](gambar/ss2.png)
+
+### Membuat Database
+
+CREATE DATABASE latihan1; </br>
+
+### Membuat Tabel
+    CREATE TABLE data_barang (
+    id_barang int(10) auto_increment Primary Key,
+    kategori varchar(30),
+    nama varchar(30),
+    gambar varchar(100),
+    harga_beli decimal(10,0),
+    harga_jual decimal(10,0),
+    stok int(4)
+    ); 
+
+![img1](gambar/ss3.png)
